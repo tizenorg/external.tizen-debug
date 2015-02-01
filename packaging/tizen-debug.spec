@@ -11,7 +11,6 @@ Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	eglibc-debuginfo = %{version}
 BuildRequires:	binutils
 
-
 %description
 The package contains the libc debug library with .debug_frame section only
 which can be helpful during signal frame backtrace.
